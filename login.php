@@ -29,6 +29,7 @@ VALUES ('{$_POST['Username']}','{$_POST['password']}','{$_POST['Name']}')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
+    	   
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
@@ -39,7 +40,7 @@ $conn->close();
 
 <center>
 <div class="form-group">
-<form action="http://localhost:8080/LetsPlayPoker" method="post">
+<form action="http://localhost:8080/PokerComp484" method="post">
 
 
 <label> Username </label>

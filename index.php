@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="col-5">
-<a href="logout.php" class="btn btn-danger btn-lg"> Logout</a>
+<a href="localhost:8888/PokerComp484/logout.php" class="btn btn-danger btn-lg"> Logout</a>
 </div>
 <center>
   <h1>Let's Play Poker</h1>
@@ -446,7 +446,7 @@ socket.on('winner3',function(winner3){
 </script>
 <h1 id="test1">To Play A New Game Just Refresh the Page</h1>
 <div id="score">
-<a href="http://localhost:8888/LetsPlayPoker/addscores.php" class="btn btn-primary"> Add Your Score To Our Database  </a>
+<a href="http://localhost:8888/PokerComp484/addscores.php" class="btn btn-primary"> Add Your Score To Our Database  </a>
 </div>
 <h1 id="round"></h1>
 <div class="col">
